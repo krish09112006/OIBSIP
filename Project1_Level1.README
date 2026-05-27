@@ -1,0 +1,72 @@
+Project Title
+
+Exploratory Data Analysis (EDA) on Retail Sales Data
+
+Objective
+
+The objective of this project is to perform Exploratory Data Analysis (EDA) on retail sales data to identify sales trends, customer purchasing behavior, and product performance. The analysis helps businesses make informed decisions using data-driven insights.
+
+Dataset
+
+The dataset contains retail sales transaction information including:
+
+Customer details
+Product information
+Sales amount
+Quantity purchased
+Order dates
+Tools and Libraries Used
+Python
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Jupyter Notebook
+Steps Performed
+1. Data Loading
+Imported the retail sales dataset using Pandas.
+2. Data Cleaning
+Checked missing values
+Removed duplicates
+Converted date columns into datetime format
+3. Descriptive Statistics
+
+Calculated:
+
+Mean
+Median
+Mode
+Standard Deviation
+4. Time Series Analysis
+Analyzed monthly sales trends
+Identified high and low sales periods
+5. Customer and Product Analysis
+Analyzed customer purchasing behavior
+Identified top-selling products/categories
+6. Data Visualization
+
+Created:
+
+Bar Charts
+Line Plots
+Heatmaps
+7. Recommendations
+
+Provided business recommendations based on sales trends and customer behavior.
+
+Key Insights
+Certain months showed significantly higher sales.
+Some product categories generated more revenue than others.
+Customer purchasing patterns helped identify popular products.
+Outcome
+
+This project improved understanding of:
+
+Data cleaning techniques
+Exploratory Data Analysis (EDA)
+Time series analysis
+Data visualization
+Business insight generation
+Conclusion
+
+The project successfully analyzed retail sales data and generated meaningful insights that can help improve business strategies and customer satisfaction.

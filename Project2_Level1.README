@@ -1,0 +1,80 @@
+Project Title
+
+Customer Segmentation Analysis using K-Means Clustering
+
+Objective
+
+The objective of this project is to analyze customer behavior and purchasing patterns to divide customers into different segments using clustering techniques. This helps businesses create targeted marketing strategies and improve customer satisfaction.
+
+Dataset
+
+The dataset contains customer information such as:
+
+Customer ID
+Income
+Purchase history
+Spending behavior
+Product purchases
+Tools and Libraries Used
+Python
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Scikit-learn
+Jupyter Notebook
+Steps Performed
+1. Data Collection
+Loaded the customer dataset using Pandas.
+2. Data Exploration and Cleaning
+Checked dataset structure
+Handled missing values
+Removed unnecessary columns
+3. Descriptive Statistics
+
+Calculated:
+
+Average spending
+Purchase frequency
+Customer behavior statistics
+4. Feature Engineering
+
+Created features such as:
+
+Total Spending
+Total Purchases
+5. Data Scaling
+Standardized numerical features using StandardScaler.
+6. Customer Segmentation
+Applied K-Means clustering algorithm
+Used the Elbow Method to determine optimal clusters
+7. Data Visualization
+
+Created:
+
+Scatter plots
+Cluster visualization charts
+Customer segment comparison plots
+8. Segment Analysis
+Analyzed characteristics of each customer group
+Compared spending and purchasing behavior
+Key Insights
+Some customers are high spenders with frequent purchases.
+Certain customers have low spending patterns.
+Customer groups can be targeted differently for marketing.
+Recommendations
+Offer premium products to high-value customers.
+Provide discounts and offers to low-engagement customers.
+Use personalized marketing strategies for different customer segments.
+Outcome
+
+This project provided practical experience in:
+
+Clustering algorithms
+Customer segmentation
+Data preprocessing
+Data visualization
+Business analytics
+Conclusion
+
+The project successfully segmented customers based on purchasing behavior using K-Means clustering. The analysis can help businesses improve marketing strategies and customer engagement.
