@@ -1,0 +1,81 @@
+Project Title
+
+House Price Prediction Using Linear Regression
+
+Objective
+
+The objective of this project is to build a machine learning model that predicts house prices based on various property features. Linear Regression is used to train the model and evaluate its performance. The project helps understand how different features influence house prices and enables data-driven price estimation.
+
+Dataset
+
+The dataset contains housing information including:
+
+Property area
+Number of bedrooms and bathrooms
+Furnishing status
+Location details
+Amenities (air conditioning, parking, etc.)
+House price (target variable)
+
+Tools and Libraries Used
+Python
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Scikit-learn
+Jupyter Notebook
+
+Steps Performed
+1. Data Loading
+Imported the housing dataset (Housing.csv) using Pandas.
+2. Data Inspection
+Viewed first few rows using head()
+Checked data types and structure using info()
+Reviewed statistical summary using describe()
+3. Data Preprocessing
+Checked for missing values
+Converted categorical columns into numerical form using One-Hot Encoding (pd.get_dummies)
+4. Feature Selection
+Defined feature matrix X by dropping the target column (price)
+Defined target vector y as the price column
+5. Train-Test Split
+Split the dataset into 80% training data and 20% testing data using train_test_split with random_state=42
+6. Model Building
+Created a Linear Regression model using Scikit-learn
+Trained the model on the training dataset
+Generated predictions on the test dataset
+7. Model Evaluation
+
+Evaluated the model using:
+
+Mean Squared Error (MSE)
+R-Squared Score (R²)
+8. Feature Importance
+Extracted model coefficients to understand the impact of each feature on house price prediction.
+9. Data Visualization
+
+Created:
+
+Scatter Plot — Actual vs. Predicted house prices
+Line Plot — Comparison of actual and predicted price values
+
+Key Insights
+The Linear Regression model successfully learned the relationship between house features and prices.
+Feature importance (coefficients) revealed which property attributes most strongly influence price.
+The scatter plot of actual vs. predicted prices showed how closely the model predictions aligned with real values.
+R² Score indicated the proportion of variance in house prices explained by the model.
+
+Outcome
+
+This project improved understanding of:
+
+Data preprocessing and encoding techniques
+Supervised machine learning using Linear Regression
+Model evaluation using MSE and R² Score
+Feature importance analysis
+Data visualization for model performance
+
+Conclusion
+
+The project successfully built a house price prediction model using Linear Regression. The model provided meaningful predictions based on property features and demonstrated how machine learning can be applied to real estate data for price estimation and business decision-making.
