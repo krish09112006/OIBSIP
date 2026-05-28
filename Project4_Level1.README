@@ -1,0 +1,84 @@
+# Sentiment Analysis Project
+
+## Project Overview
+
+This project focuses on Sentiment Analysis using Natural Language Processing (NLP) and Machine Learning techniques. The main objective is to analyze text data and classify sentiments as positive, negative, or neutral.
+
+The project helps in understanding customer opinions, social media reactions, and public feedback through text analysis.
+
+---
+
+# Objectives
+
+* Perform sentiment analysis on text data
+* Apply NLP techniques for text processing
+* Build a machine learning model for sentiment classification
+* Visualize sentiment results
+* Predict sentiment from custom user input
+
+---
+
+# Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Scikit-learn
+
+---
+
+# Machine Learning Algorithm
+
+* Multinomial Naive Bayes
+
+---
+
+# NLP Techniques Used
+
+* CountVectorizer for text feature extraction
+
+---
+
+# Project Steps
+
+1. Import required libraries
+2. Load dataset
+3. Check dataset information
+4. Handle missing values
+5. Select text and sentiment columns
+6. Convert text into numerical format using CountVectorizer
+7. Split dataset into training and testing data
+8. Train the Naive Bayes model
+9. Predict sentiments
+10. Evaluate model accuracy
+11. Generate classification report
+12. Create confusion matrix
+13. Visualize sentiment distribution
+14. Test model with custom input
+
+---
+
+# Data Visualization
+
+The project includes:
+
+* Sentiment Distribution Bar Chart
+* Confusion Matrix Visualization
+
+---
+
+# Output
+
+The model predicts the sentiment of text data and displays:
+
+* Accuracy Score
+* Classification Report
+* Confusion Matrix
+* Sentiment Predictions
+
+---
+
+# Conclusion
+
+This project demonstrates how NLP and Machine Learning can be used together to perform sentiment analysis effectively. The model successfully classifies text sentiments and provides meaningful insights from textual data.
