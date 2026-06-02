@@ -1,0 +1,142 @@
+# Fraud Detection Using Machine Learning
+
+## Project Title
+
+Fraud Detection Using Machine Learning
+
+## Objective
+
+The objective of this project is to build a machine learning model that can identify fraudulent financial transactions. The system analyzes transaction data and classifies transactions as either legitimate or fraudulent, helping organizations reduce financial losses and improve security.
+
+---
+
+## Dataset
+
+The dataset contains financial transaction records with features such as:
+
+* Transaction Time
+* Transaction Amount
+* PCA-transformed Features (V1–V28)
+* Transaction Class (Target Variable)
+
+**Target Variable:**
+
+* 0 = Legitimate Transaction
+* 1 = Fraudulent Transaction
+
+---
+
+## Tools and Libraries Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-Learn
+* Jupyter Notebook
+
+---
+
+## Steps Performed
+
+### 1. Data Loading
+
+* Imported the dataset using Pandas.
+* Displayed the first few records for inspection.
+
+### 2. Data Cleaning
+
+* Checked for missing values.
+* Removed null values using `dropna()`.
+* Verified data quality.
+
+### 3. Data Exploration
+
+* Examined dataset structure and statistics.
+* Analyzed class distribution.
+* Identified imbalance between genuine and fraudulent transactions.
+
+### 4. Feature Scaling
+
+* Standardized numerical features such as Time and Amount using StandardScaler.
+
+### 5. Data Splitting
+
+* Split the dataset into training and testing sets using train_test_split().
+* Used 80% data for training and 20% for testing.
+
+### 6. Model Building
+
+Implemented the following machine learning models:
+
+#### Logistic Regression
+
+* Trained the model on transaction data.
+* Predicted fraud and non-fraud transactions.
+
+#### Decision Tree Classifier
+
+* Built a decision tree model.
+* Compared performance with Logistic Regression.
+
+### 7. Model Evaluation
+
+Calculated:
+
+* Accuracy Score
+* Confusion Matrix
+* Precision
+* Recall
+* F1-Score
+* ROC-AUC Score
+
+### 8. Anomaly Detection
+
+* Applied Isolation Forest for anomaly detection.
+* Compared anomaly detection results with classification models.
+
+### 9. Model Comparison
+
+* Compared all models based on evaluation metrics.
+* Selected the best-performing model for fraud detection.
+
+---
+
+## Data Visualization
+
+Created visualizations such as:
+
+* Class Distribution Plot
+* Transaction Analysis Charts
+* Confusion Matrix Visualization
+* Fraud vs Non-Fraud Comparison
+
+---
+
+## Key Insights
+
+* Fraudulent transactions represent a very small portion of the dataset.
+* Class imbalance is a major challenge in fraud detection.
+* Feature scaling improves model performance.
+* Machine learning models can effectively identify suspicious transactions.
+* Anomaly detection techniques help detect unusual transaction behavior.
+
+---
+
+## Outcome
+
+This project improved understanding of:
+
+* Data Preprocessing
+* Feature Engineering
+* Classification Algorithms
+* Anomaly Detection
+* Model Evaluation
+* Fraud Analytics
+
+---
+
+## Conclusion
+
+The Fraud Detection System successfully analyzed transaction data and identified potentially fraudulent activities using machine learning techniques. The project demonstrates how predictive analytics can help financial institutions improve security, reduce risk, and detect fraud more efficiently.
